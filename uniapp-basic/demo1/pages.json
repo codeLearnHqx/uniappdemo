@@ -1,0 +1,67 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uniapp零基础入门"
+			}
+		},
+		{
+		    "path" : "pages/list/list" ,
+			"style": {
+				"navigationBarTitleText": "新闻列表"
+			}
+		}
+        ,{
+            "path" : "pages/about/about",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关于我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情页",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	
+	"tabBar": {
+		"color": "#333",
+		"selectedColor": "#015FF9",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tarBar/home-Outline.png",
+				"selectedIconPath": "static/tarBar/select/home-Outline.png"
+			},
+			{
+				"text": "新闻列表",
+				"pagePath": "pages/list/list",
+				"iconPath": "static/tarBar/qita.png",
+				"selectedIconPath": "static/tarBar/select/qita.png"
+			},
+			{
+				"text": "关于页",
+				"pagePath": "pages/about/about",
+				"iconPath": "static/tarBar/Note-Outline.png",
+				"selectedIconPath": "static/tarBar/select/Note-Outline.png"
+			}
+		]
+	},
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

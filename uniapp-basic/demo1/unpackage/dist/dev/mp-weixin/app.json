@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/about/about",
+    "pages/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#015FF9",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tarBar/home-Outline.png",
+        "selectedIconPath": "static/tarBar/select/home-Outline.png"
+      },
+      {
+        "text": "新闻列表",
+        "pagePath": "pages/list/list",
+        "iconPath": "static/tarBar/qita.png",
+        "selectedIconPath": "static/tarBar/select/qita.png"
+      },
+      {
+        "text": "关于页",
+        "pagePath": "pages/about/about",
+        "iconPath": "static/tarBar/Note-Outline.png",
+        "selectedIconPath": "static/tarBar/select/Note-Outline.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

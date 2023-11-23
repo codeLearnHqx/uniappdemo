@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "uniapp零基础入门",
+  "usingComponents": {
+    "test": "/components/test/test"
+  }
+}

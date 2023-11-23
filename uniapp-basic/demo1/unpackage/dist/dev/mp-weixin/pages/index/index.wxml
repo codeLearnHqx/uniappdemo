@@ -1,0 +1,1 @@
+<view class="box"><view><rich-text nodes="{{code}}"></rich-text></view><navigator open-type="switchTab" url="/pages/list/list?wd=uniapp"><button type="primary">新闻页</button></navigator><navigator open-type="reLaunch" url="/pages/about/about"><button type="primary">关于页</button></navigator><test vue-id="8dd740cc-1" bind:__l="__l"></test></view>
